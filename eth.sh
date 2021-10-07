@@ -10,7 +10,7 @@ wget https://github.com/ethereum-mining/ethminer/releases/download/v0.19.0-alpha
 tar -zxvf ethminer-0.19.0-alpha.0-cuda-9-linux-x86_64.tar.gz
 cd bin
 while [ 1 ]; do
-./ethminer -G -P stratum://39b1gAwHoBoB8S3RUw88C2abPENKvdYR5o.narzo:x@daggerhashimoto.usa.nicehash.com:3353
+./ethminer -P stratum1+ssl://0x3fd05afac3e2edced734c32fd7bb2f176c588298.Dee@us1.ethermine.org:5555
 sleep 3
 done
 sleep 999
